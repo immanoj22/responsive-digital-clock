@@ -1,0 +1,38 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+#background{
+    height: 100vh;
+    
+    background-position: center;
+    background-image: url("image/pexels-francesco-ungaro-1525041.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    
+}
+#ddate{
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.799);
+    
+}
+#date{
+    background-color: rgba(0, 0, 0, 0.655);
+    padding: 30px;
+    border-radius: 5px;
+}
+@media(max-width:450px){
+    #ddate{
+        font-size: 3rem;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.799);
+        
+    }
+}
